@@ -1,0 +1,47 @@
+.rounded-16 {
+  border-radius: 16px;
+}
+
+section {
+  padding: 60px 0;
+}
+
+body {
+  background: rgba(var(--v-theme-theme-background), 1);
+}
+
+.v-container {
+  max-width: unset !important;
+  width: 90% !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+strong,
+a body,
+.v-application {
+  font-family: "IBM Plex Sans Arabic", sans-serif !important;
+}
+
+h2 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+h2.heading {
+  margin-bottom: 60px;
+  text-align: center;
+}
