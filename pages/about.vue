@@ -13,6 +13,5 @@
 const { fetchData } = useExampleStore();
 
 const { data, status, error } = await fetchData();
-
 console.log(data);
 </script>

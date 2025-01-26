@@ -5,6 +5,7 @@ export default defineNuxtPlugin((nuxtApp) => {
     baseURL: "https://jsonplaceholder.typicode.com/",
     onRequest({ request, options, error }) {
       options.headers.set("Content-Type", "application/json");
+      options.headers.set("Accept-Encoding", "gzip, compress, br");
       if (token.value) {
         options.headers.set("Authorization", `Bearer ${token.value}`);
       }
